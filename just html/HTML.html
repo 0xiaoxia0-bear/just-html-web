@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="just for text">
+    <meta name="keywords" content="html, css, javascript">
+    <title>just for text</title>
+    <style>
+        table,tr,th,td{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+        <!-- a link to <a href="2page.html">去第二頁</a> -->
+    <h1>
+        目錄
+        <ul>
+            <li>
+                <a href="#word" style="background-color: lightcyan;">文字大小</a>
+                &nbsp;&nbsp;
+                <a href="#annotation" style="background-color: lightcyan;">註解</a>
+                &nbsp;&nbsp;
+                <a href="#有序列表" style="background-color: lightcyan;">有序列表</a>
+                &nbsp;&nbsp;
+                <a href="#無序列表" style="background-color: lightcyan;">無序列表</a>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="./2page.html">第二頁</a>
+                <br>
+                <a href="#table" style="background-color: lightcyan;">表格</a>
+                &nbsp;&nbsp;
+                <a href="#image" style="background-color: lightcyan;">圖片</a>
+                &nbsp;&nbsp;
+                <a href="#sheet" style="background-color: lightcyan;">表單</a>
+                &nbsp;&nbsp;
+                <a href="#date-time" style="background-color: lightcyan;">日期與時間</a>
+                <br>
+                <a href="#text-area" style="background-color: lightcyan;">文字區域</a>
+                &nbsp;&nbsp;
+                <a href="#checkbox" style="background-color: lightcyan;">多選框</a>
+                &nbsp;&nbsp;
+                <a href="#question" style="background-color: lightcyan;">單選框</a>
+                &nbsp;&nbsp;
+                <a href="#select" style="background-color: lightcyan;">下拉選單</a>
+                <br>
+                <a href="#text-formatting" style="background-color: lightcyan;">字體格式</a>
+                &nbsp;&nbsp;
+                <a href="#embed" style="background-color: lightcyan;">嵌入內容</a>
+                &nbsp;&nbsp;
+                <a href="#music" style="background-color: lightcyan;">音樂</a>
+                &nbsp;&nbsp;
+                <a href="#style-element" style="background-color: lightcyan;">區塊</a>
+                &nbsp;&nbsp;
+                <a href="#button" style="background-color: lightcyan;">按鈕</a>
+            </li>
+        </ul>
+        
+    </h1>
+    <h1 id="word">
+        文字大小
+        <br>
+        This is a web
+    </h1>
+    <h2>small</h2>
+    <h1 id="annotation">
+        註解
+        <h5>
+    <!-- 註解 -->
+     <p style="color: gray;">yeah u can not see this annotation</p>
+        </h5>
+    </h1>
+    <h1 id="有序列表">
+        有序列表
+        <ul>
+            <li>bear</li>
+            <li>cat</li>
+            <li>dog</li>
+        </ul>
+    </h1>
+    <h1 id="無序列表">
+        無序列表
+        <ol>
+            <li>apple</li>
+            <li>banana</li>
+            <li>grape</li>
+        </ol>
+    </h1>
+    <h1 id="table">
+        表格
+        <table>
+            <tr>
+                <th>姓名</th>
+                <th>年齡</th>
+                <th>職業</th>
+            </tr>
+            <tr>
+                <td>小明</td>
+                <td>25</td>
+                <td>工程師</td>
+            </tr>
+        </table>
+    </h1>
+    <br>
+    <h1 id="image">
+        圖片
+        <br>
+        <a href="https://discord.gg/E8bhTqGs" target="_blank">
+            <img src="./image/yoyo.png"width="200" height="200">
+        </a>
+    </h1>
+    <br>
+    <h1 id="sheet">
+        表單
+        <br>
+        <label for="email">email</label>
+            <input type="email" name="email" id="email">
+        <label for="password">password</label>
+            <input type="password" name="password" id="password">
+        <label for="submit"></label>
+            <input type="submit" value="提交">
+    </h1>
+    <h1 id="date-time">
+        日期與時間
+        <br>
+        <label for="time">Time</label>
+            <input type="time" name="time" id="time" min="9:00" max="12:00">
+        <label for="date"></label>
+            <input type="date" name="date" id="date" min="2024-06-01" max="2024-12-31">
+        <label for="submit"></label>
+            <input type="submit" value="提交">
+    </h1>
+    <h1 id="text-area">
+        文字區域
+        <br>
+            <form action="">
+            <label for="comment"></label>
+            <textarea type="comment" name="comment" id="comment" cols="-10" rows="5"></textarea>
+            <br>
+            <input type="submit" value="提交">
+
+        </form>        
+    </h1>
+    <h1 id="checkbox">
+        多選框
+        <br>
+        <form action="">
+            <input type="checkbox" name="sport" id="">
+            <label for="sport">桌球</label>
+            <input type="checkbox" name="sport" id="">
+            <label for="">羽球</label>
+            <input type="checkbox" name="sport" id="">
+            <label for="">籃球</label>
+            <br>
+            <input type="submit" value="提交">
+        </form>
+    </h1>
+    <h1 id="question">
+        單選框
+        <br>
+        <form action="">
+            <input type="radio" name="question1" id="q1" value="yes">
+            <label for="">yes</label>
+            <input type="radio" name="question2" id="q2" value="no">
+            <label for="">no</label>
+            <br>
+            <input type="submit" value="提交">
+        </form>
+    </h1>
+    <h1 id="select">
+        下拉選單
+        <br>
+        <form action="">
+            <select name="section" id="">
+                <option value="Tokyo">Tokyo</option>
+                <option value="Taipei 101">Taipei 101</option>
+                <option value="Angkor Wat">Angkor Wat</option>
+            </select>
+            <input type="submit" value="提交">
+        </form>
+    </h1>
+    <br>
+    <h1 id="text-formatting">
+        字體格式
+        <br>
+        <p>I'm a bear&trade;</p>
+        <p>Im a bear</p>
+        <p><b>Im a bear</b></p>
+        <p><i>Im a bear</i></p>
+        <p><b><i>Im a bear</i></b></p>
+        <p><em>Im a bear</em></p>
+    </h1>
+    <br>
+    <h1 id="embed">
+        嵌入內容
+        <br>
+        <iframe src="./first.html" frameborder="0"></iframe>
+        <iframe src="./second.html" frameborder="0"></iframe>
+        <iframe width="336" height="189" src="https://www.youtube.com/embed/GqTiJwwdyM0?si=hu0fvpsem68Y21vH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </h1>
+    <br>
+    <h1 id="music">
+        音樂
+        <br>
+        <audio controls>
+            <source src="./music.mp3" type="audio/mpeg">
+        你的瀏覽器不支援
+    </h1>
+    </audio>
+    <h1 id="style-element">
+        區塊
+        <div style=background-color:lightblue>
+            div
+        </div>
+        <span style=background-color:lightgreen>
+            span
+        </span>
+    </h1>
+    <br>
+    <h1 id="button">
+        按鈕
+        <br>
+        <button style="width: 100px; height: 100px;color:gray;">Button 1</button>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+            <button style="color:gray; width: 100px; height: 100px;">Button 2</button>
+        </a>
+    </h1>
+</body>
+</html>
