@@ -24,8 +24,6 @@
                 <a href="#有序列表" style="background-color: lightcyan;">有序列表</a>
                 &nbsp;&nbsp;
                 <a href="#無序列表" style="background-color: lightcyan;">無序列表</a>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="./2page.html">第二頁</a>
                 <br>
                 <a href="#table" style="background-color: lightcyan;">表格</a>
                 &nbsp;&nbsp;
@@ -52,6 +50,8 @@
                 <a href="#style-element" style="background-color: lightcyan;">區塊</a>
                 &nbsp;&nbsp;
                 <a href="#button" style="background-color: lightcyan;">按鈕</a>
+                &nbsp;&nbsp;
+                <a href="#page" style="background-color: lightcyan;">頁面</a>
             </li>
         </ul>
         
@@ -70,7 +70,7 @@
         </h5>
     </h1>
     <h1 id="有序列表">
-        有序列表
+        無序列表
         <ul>
             <li>bear</li>
             <li>cat</li>
@@ -78,7 +78,7 @@
         </ul>
     </h1>
     <h1 id="無序列表">
-        無序列表
+        有序列表
         <ol>
             <li>apple</li>
             <li>banana</li>
@@ -157,14 +157,15 @@
     <h1 id="question">
         單選框
         <br>
-        <form action="">
-            <input type="radio" name="question1" id="q1" value="yes">
-            <label for="">yes</label>
-            <input type="radio" name="question2" id="q2" value="no">
-            <label for="">no</label>
-            <br>
-            <input type="submit" value="提交">
-        </form>
+        Do u like bear
+        <br>
+        <label for="">
+            <input type="radio" name="question1" value="yes">
+            yes
+            <input type="radio" name="question1" value="no">
+            no
+        </label>
+        <input type="submit" value="提交">
     </h1>
     <h1 id="select">
         下拉選單
@@ -222,6 +223,11 @@
         <button style="width: 100px; height: 100px;color:gray;">Button 1</button>
         <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
             <button style="color:gray; width: 100px; height: 100px;">Button 2</button>
+        </a>
+    </h1>
+    <h1 id="page">
+        <a href="./2page.html" target=_blank>
+            <button style="width: 20; height: 20;">2</button>
         </a>
     </h1>
 </body>
